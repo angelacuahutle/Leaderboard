@@ -4,6 +4,48 @@
     <meta charset="utf-8">
     <title>Development</title>
   <meta name="viewport" content="width=device-width, initial-scale=1"><script defer src="/index.bundle.js"></script><script defer src="/print.bundle.js"></script></head>
-  <body>
-  </body>
+  <body class="container-fluid mt-5">
+    <h1 class="my-5 mx-3">Leaderboard</h1>
+    <div class ="container-fluid row w-75 w mx-auto">
+      <section class="container-fluid col mx-5">
+        <h2 class="d-flex justify-content-between">Current Scores <button type="button" class="btn btn-dark" id="refresh">Refresh</button></h2>
+        <div class="leaderboard my-5">
+          <table class="table table-striped">
+            <thead>
+              <tr>
+                <th scope="col"><strong>Name</strong></th>
+                <th scope="col"><strong>Score</strong></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Manchester</th>
+                  <td>70</td>
+              </tr>
+              <tr>
+                <th scope="row">Real Madrid</th>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th scope="row">Boromir</th>
+                <td>30</td>
+              </tr>
+              <tr>
+                <th scope="row">Chelsea</th>
+                <td>60</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+  
+      <section class="container-fluid col mx-5">
+        <h2>Add your score</h2>
+          <form id="new-score" class="d-flex flex-column my-5">
+           <input class="my-2" type="text" placeholder="Your name" id="name" name="name">
+           <input class="my-2" type="number" placeholder="Your score" id="score" name="score">
+           <input type="submit" class="btn btn-dark" value="Submit">
+          </form>
+      </section>
+    </div>
 </html>
