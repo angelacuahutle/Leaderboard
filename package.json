@@ -1,5 +1,5 @@
 {
-  "name": "Leaderboard",
+  "name": "leaderboard",
   "version": "1.0.0",
   "description": "\"Leaderboard\" is a tool that helps to organize your day. It simply lists the things that you need to do and allows you to mark them as complete. You will build a simple website that allows for doing that, and you will do it using ES6 and Webpack!",
   "main": "index.js",
@@ -36,9 +36,11 @@
     "webpack-cli": "^4.9.1",
     "webpack-dev-server": "^4.6.0"
   },
+
   "dependencies": {
     "lodash": "^4.17.21",
     "express": "^4.17.1",
-    "webpack-dev-middleware": "^5.2.2"
+    "webpack-dev-middleware": "^5.2.2",
+    "bootstrap": "^5.1.3"
   }
 }
