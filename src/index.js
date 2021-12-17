@@ -1,8 +1,7 @@
-import printMe from './print.js';
+import printMe from './print';
 import './style.css';
 
 function component() {
-  
   const element = document.createElement('div');
   const btn = document.createElement('button');
 
