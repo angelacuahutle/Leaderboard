@@ -37,12 +37,9 @@ $ npm install
 $ npm start 
 ```
 
-## Live Demo
-
-[Live Demo Link](##)
-@@ -34,4 +47,4 @@ Give a ⭐️ if you like this project!
-
 ## 🤝 Contributing
+
+Give a ⭐️ if you like this project!
 
 Contributions, issues, and feature requests are welcome!
 
