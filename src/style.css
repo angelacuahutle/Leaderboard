@@ -3,7 +3,6 @@ input.my-2 {
   border-width: 1px;
   border-style: solid;
   border-color: blue;
-  
 }
 
 input.btn {
@@ -36,5 +35,4 @@ input.btn {
   height: 350px;
   overflow: scroll;
   overflow-x: hidden;
-  border-radius: 10px;
 }
