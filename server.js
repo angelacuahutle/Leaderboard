@@ -1,5 +1,6 @@
 const express = require('express');
 const webpack = require('./webpack.config');
+
 const webpackDevMiddleware = require['webpack-dev-middleware'];
 
 const app = express();
@@ -14,8 +15,3 @@ app.use(
     publicPath: config.output.publicPath,
   }),
 );
-
-// Serve the files on port 3000.
-app.listen(3000, () => {
-  //console.log('Example app listening on port 3000!\n');
-});
