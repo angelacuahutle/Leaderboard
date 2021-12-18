@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href='https://fonts.googleapis.com/css?family=Balsamiq Sans' rel='stylesheet'>
+  <title>Leaderboard</title>
+<script defer src="/webpack-demo/index.bundle.js"></script></head>
+
+<body>
+  <div class="row w-75 w mx-auto">
+    <h1 class="my-5 mx-3">Leaderboard</h1>
+    <section class="col mx-5">
+      <div class="d-flex justify-content-between">
+        <h2>New Scores</h2>
+        <input type="button" class="btn" id="refresh" value="Refresh"></input>
+      </div>
+      <div class="leaderboard my-5">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"><strong>Name</strong></th>
+              <th scope="col"><strong>Score</strong></th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="col mx-5">
+      <h2>Add New Score</h2>
+      <form id="form" class="d-flex flex-column my-5">
+        <input class="my-2" type="text" placeholder="Your name" id="user" name="name">
+        <input class="my-2" type="number" placeholder="Your score" id="score" name="score">
+        <input type="submit" class="btn" value="Submit">
+      </form>
+    </section>
+  </div>
+ </body>
+</html>
