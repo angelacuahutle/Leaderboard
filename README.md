@@ -14,7 +14,7 @@ In this project I will set up a JavaScript project for the Leaderboard list app,
 
 ## Live Demo
 
-[Live Demo Link](https://angelacuahutle.github.io/Leaderboard/src)
+[Live Demo Link](https://angelacuahutle.github.io/Leaderboard/)
 
 ## Author
 
@@ -47,5 +47,4 @@ Feel free to check the [issues page](https://github.com/angelacuahutle/Leaderboa
 
 ## 📝 License
 
-This project is [MIT](./LICENSE.md) licensed.
 This project is [MIT](./LICENSE.md) licensed.
