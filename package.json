@@ -22,7 +22,7 @@
   "bugs": {
     "url": "https://github.com/angelacuahutle/Leaderboard/issues"
   },
-  "homepage": "https://github.com/angelacuahutle/Leaderboard#readme",
+  "homepage": "https://angelacuahutle.github.io/Leaderboard/",
   "devDependencies": {
     "babel-eslint": "^10.1.0",
     "css-loader": "^6.5.1",
