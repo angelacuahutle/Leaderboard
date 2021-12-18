@@ -14,7 +14,7 @@ In this project I will set up a JavaScript project for the Leaderboard list app,
 
 ## Live Demo
 
-[Live Demo Link](##)
+[Live Demo Link](https://angelacuahutle.github.io/Leaderboard/)
 
 ## Author
 
@@ -46,7 +46,7 @@ $ npm start
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page]().
+Feel free to check the [issues page](https://github.com/angelacuahutle/Leaderboard/issues).
 
 ## 📝 License
 
