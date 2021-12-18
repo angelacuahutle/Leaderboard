@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Leaderboard</title>
+</head>
+
+<body class="container-fluid mt-5">
+  <h1 class="my-5 mx-3">Leaderboard</h1>
+  <div class="container-fluid row w-75 w mx-auto">
+    <section class="container-fluid col mx-5">
+      <h2 class="d-flex justify-content-between">Recent scores <button type="button" class="btn btn-dark"
+          id="refresh">Refresh</button></h2>
+      <div class="leaderboard my-5">
+        <table class="table table-striped">
+          <thead>
+            <tr>
+              <th scope="col"><strong>Name</strong></th>
+              <th scope="col"><strong>Score</strong></th>
+            </tr>
+          </thead>
+          <tbody id="tbody">
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="container-fluid col mx-5">
+      <h2>Add New Score</h2>
+      <form id="form" class="d-flex flex-column my-5">
+      <input class="my-2" type="text" placeholder="Your name" id="user" name="name">
+      <input class="my-2" type="number" placeholder="Your score" id="score" name="score">
+      <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+      </section> 
+  </div>
+</body>
+</html>
