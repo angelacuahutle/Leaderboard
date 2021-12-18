@@ -1,11 +1,29 @@
 input.my-2 {
   width: 70%;
+  border-width: 1px;
+  border-style: solid;
+  border-color: blue;
 }
 
 input.btn {
   width: fit-content;
   align-self: flex-end;
   margin-right: 30%;
+  border: 3px solid black;
+  border-radius: 5%;
+  padding: 0.2em 0.5rem;
+  box-shadow: 4px 3px black;
+  background: white;
+  cursor: pointer;
+  user-select: none;
+}
+
+* {
+  /* stylelint-disable */
+  font-family: 'Balsamiq Sans';
+  /* stylelint-enable */
+  font-weight: 900;
+  color: black;
 }
 
 .leaderboard {
@@ -14,4 +32,7 @@ input.btn {
   border-style: solid;
   border-color: blue;
   border-radius: 5px;
+  height: 350px;
+  overflow: scroll;
+  overflow-x: hidden;
 }
