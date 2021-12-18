@@ -10,9 +10,7 @@ const PostToApi = async () => {
   const user = searchID('user').value;
   const score = searchID('score').value;
   const userData = { user, score };
-};
 
-const dData = async () => {
   try {
     await fetch(API_URL, {
       method: 'POST',
@@ -21,10 +19,16 @@ const dData = async () => {
       },
       body: JSON.stringify(userData),
     });
+
   } catch (error) {
     error(error);
+    throw new Error(error.message);
   }
+};
 
+const dData = async () => {
+  try {
+    const fetching = await fetch(API_URL);
     const res = await fetching.json();
     const data = res;
     const leaderboard = data.result;
@@ -49,11 +53,16 @@ const dData = async () => {
       tr.appendChild(td);
       tbody.appendChild(tr);
     });
-
   } catch (error) {
     throw new Error(error.message);
   }
 };
+
+const refresh = document.getElementById('refresh');
+refresh.addEventListener('click', () => {
+  tbody.innerHTML = '';
+  dData();
+});
 
 const form = document.getElementById('form');
 form.addEventListener('submit', (e) => {
