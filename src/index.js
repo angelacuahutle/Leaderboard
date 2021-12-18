@@ -19,7 +19,6 @@ const PostToApi = async () => {
       },
       body: JSON.stringify(userData),
     });
-
   } catch (error) {
     error(error);
     throw new Error(error.message);

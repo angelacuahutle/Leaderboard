@@ -21,28 +21,20 @@
               <th scope="col"><strong>Score</strong></th>
             </tr>
           </thead>
-          <tbody>
-            <tr>
-              <th scope="row">Manchester</th>
-              <td>40</td>
-            </tr>
-            <tr>
-              <th scope="row">Real Madrid</th>
-              <td>30</td>
-            </tr>
-            <tr>
-              <th scope="row">Barcelona</th>
-              <td>40</td>
-            </tr>
-            <tr>
-              <th scope="row">Irland</th>
-              <td>50</td>
-            </tr>
+          <tbody id="tbody">
           </tbody>
         </table>
       </div>
     </section>
 
+    <section class="container-fluid col mx-5">
+      <h2>Add New Score</h2>
+      <form id="form" class="d-flex flex-column my-5">
+      <input class="my-2" type="text" placeholder="Your name" id="user" name="name">
+      <input class="my-2" type="number" placeholder="Your score" id="score" name="score">
+      <input type="submit" class="btn btn-primary" value="Submit">
+      </form>
+      </section> 
   </div>
 </body>
 </html>
